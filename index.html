@@ -20,31 +20,33 @@
   <body >
 
     <header class="cabecalho">
-        <nav class="navbar navbar-expand-sm navbar-dark ">
-            <!--logo-->
-            <a href="" class="navbar-brand">luan santos</a>
-            <!--menu hamburguer-->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navegacao">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" id="itemheader">
-                        <a href="" class="nav-link">quem somos</a>
-                    </li>
-                    <li class="nav-item" id="itemheader">
-                        <a href="" class="nav-link">trabalhos</a>
-                    </li>
-                    <li class="nav-item" id="itemheader">
-                        <a href="" class="nav-link">contatos</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </nav>
+        
         
     </header>
+
+    <div class="navigation">
+        <div class="toggleMenu"></div>
+        <ul>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">inicio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Sobre</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="hammer-outline"></ion-icon></span>
+                    <span class="text">tecnologias</span>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <section id="capa" class="d-flex">
         <div class="container align-self-center">
@@ -175,5 +177,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--script-->
+    <script src="js/script.js"></script>
+
   </body>
 </html>
