@@ -3,10 +3,19 @@ body,html{
     max-height: 100%;
     height: 100%; /*aumenta o tamanho da tela até o tamanho total do monitor*/
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .p-ligth{
-    background-color: #6ec6ff;
+    background: #6ec6ff;
 }
+
+.sec{
+    background-color: #afbdc4;
+}
+
+
 
 /* nav bar */
 
@@ -120,7 +129,6 @@ body,html{
     position: fixed;
     inset: 20px 0 20px 20px;
     width: 75px;
-    background: rgba(252, 241, 87, 0.76);
     transition: 0.5s;
     display: flex;
     justify-content: center;
@@ -222,9 +230,11 @@ body,html{
     color: #333;
 }
 .navigation ul li.active a .icon{
-    background-color: rgb(27, 27, 211);
+    background-color: #0069c0; 
     color: #fff;
 }
+
+
 
 .navigation ul li a .icon::before{
     content: '';
@@ -233,7 +243,7 @@ body,html{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(27, 27, 211);
+    background-color: #0069c0; 
     filter: blur(8px);
     opacity: 0;
     transition: 0.5s;
@@ -261,5 +271,5 @@ body,html{
 }
 
 .navigation ul li.active  a .text{
-    color: rgb(27, 27, 211);
+    color: #0069c0; 
 }
